@@ -1,6 +1,6 @@
 # Algorithmic Trading Backtester & Market Anomaly Predictor 📈
 
-A modular, Object-Oriented quantitative trading pipeline built in Python. This system ingests historical market data, identifies pricing anomalies using Machine Learning (Isolation Forests) and statistical models, and backtests custom trading strategies to evaluate risk-adjusted returns.
+A modular, Object-Oriented quantitative trading pipeline built in Python. This system ingests historical market data, identifies pricing anomalies using Machine Learning (Isolation Forests) and statistical models and backtests custom trading strategies to evaluate risk-adjusted returns.
 
 ![Backtest Results](result.jpg)
 
