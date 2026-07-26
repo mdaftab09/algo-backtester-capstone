@@ -2,7 +2,7 @@
 
 A modular, Object-Oriented quantitative trading pipeline built in Python. This system ingests historical market data, identifies pricing anomalies using Machine Learning (Isolation Forests) and statistical models and backtests custom trading strategies to evaluate risk-adjusted returns.
 
-![Backtest Results](result.jpg)
+![Backtest Results](result screenshot.jpg)
 
 ## 🏗️ Architecture
 The system is designed with production-readiness in mind, separating concerns into distinct modules:
@@ -16,14 +16,21 @@ The system is designed with production-readiness in mind, separating concerns in
 
 1. **Clone the repository**
 ```bash
-git clone [https://github.com/mdaftab09/algo-backtester.git](https://github.com/mdaftab09/algo-backtester.git)
-cd algo-backtester
+git clone [https://github.com/mdaftab09/algo-backtester-capstone.git](https://github.com/mdaftab09/algo-backtester-capstone.git)
+cd algo-backtester-capstone
+```
 
-Install dependencies
-
-Bash
+2. **Install dependencies**
+```bash
 pip install -r requirements.txt
-Run the pipeline
+```
 
-Bash
+3. **Run the pipeline**
+```bash
 python main.py
+```
+
+## 🔮 Future Enhancements
+* Implement slippage models to account for liquidity constraints.
+* Add out-of-sample data testing to prevent overfitting and survivorship bias.
+* Integrate live data streaming via WebSockets.
