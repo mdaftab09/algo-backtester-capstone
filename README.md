@@ -18,3 +18,12 @@ The system is designed with production-readiness in mind, separating concerns in
 ```bash
 git clone [https://github.com/mdaftab09/algo-backtester.git](https://github.com/mdaftab09/algo-backtester.git)
 cd algo-backtester
+
+Install dependencies
+
+Bash
+pip install -r requirements.txt
+Run the pipeline
+
+Bash
+python main.py
