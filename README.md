@@ -17,7 +17,6 @@ The system is designed with production-readiness in mind, separating concerns in
 1. **Clone the repository**
 ```bash
 git clone [https://github.com/mdaftab09/algo-backtester.git](https://github.com/mdaftab09/algo-backtester.git)
-cd algo-backtester-capstone
 ```
 
 2. **Install dependencies**
